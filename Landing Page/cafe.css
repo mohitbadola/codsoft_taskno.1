@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+	background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(13.jpg) center/cover no-repeat fixed; 
+	font-family: sans-serif;
+}
+
+.top{
+	height: 100vh;
+}
+.navbar{
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar a img{
+	padding-left: 100px;
+	width: 12rem;
+}
+.navbar ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar ul li{
+	list-style: none;
+	margin-left: 50px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff2df;
+	padding: 6px 15px;
+	border-radius: 20px;
+	font-weight: 600;
+}
+.navbar ul li a:hover{
+	background-color: #c9afb2;
+}
+
+
+/*-------------------------------------Top----------------------------------------------*/
+
+.top{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top #text{
+	position: absolute;
+	height: 60vh;
+	font-size: 10vw;
+	line-height: 0.55em;
+	text-align: center;
+	font-family: 'Rancho',cursive;
+}
+.top #text span{
+	font-size: 0.2em;
+	letter-spacing: 4px;
+	font-family: sans-serif;
+}
+/*-------------------------------------Coffee------------------------------------------*/
+
+.coff{
+	background-color: #fff2df;
+	height: 105vh;
+}
+.tops{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 100px;
+}
+.tops h3{
+	font-size: 2.5rem;
+	font-weight: 600;
+	border-bottom: 3px solid #222;
+}
+.coffee{
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 200px 0px 200px;
+}
+.study img{
+	width: 380px;
+}
+.cookies img{
+	width: 380px;
+}
+.pastry img{
+	width: 380px;
+}
+.coffee h3{
+	text-align: center;
+	padding: 40px 20px 20px 20px;
+	font-size: 1.8rem;
+	font-weight: 4000;
+}
+.coffee p{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 1.5rem;
+	font-weight: 4000;
+}
+
+/*--------------------------------------------------items-----------------------------------------*/
+.gallery{
+	background-color: #f0f0f0;
+	height: 150vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 50px 0 50px;
+}
+.container .heading{
+  width: 50%;
+  padding: 100px 0px 50px 0px;
+}
+.container .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+.container .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container .box .collage{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .collage img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .btn{
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 15px 40px ;
+  border-radius: 5px;
+}
+
+.container .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+
+/*--------------------------------------------------items-----------------------------------------*/
+.rev{
+	background-color: beige;
+	height: 100vh;
+	overflow: hidden;
+}
+.rev-h h2{
+	font-size: 2rem;
+	padding: 250px 0px 0px 300px;
+}
+.items{
+	display: flex;
+	justify-content: space-between;
+	padding: 60px 300px 0px 300px;
+}
+
+.items .rev-1 p{
+	font-size: 1.4rem;
+}
+.items .rev-2 p{
+	font-size: 1.4rem;
+}
+.items .rev-3 p{
+	font-size: 1.4rem;
+}
+
+.items .rev-1 h3{
+	padding: 20px;
+}
+.items .rev-2 h3{
+	padding: 20px;
+}
+.items .rev-3 h3{
+	padding: 20px;
+}
+.Mr h3{
+	padding: 60px 0px 0px 300px;
+	font-size: 1.5rem;
+}
+.Mr h3 a{
+	text-decoration: none;
+	color: #f18973;
+}
+
+/*-------------------------------------Coffee-----------------------------------------*/
+footer{
+	background-color:#96897f;
+	height: 40vh;
+}
+.left p{
+	text-align: center;
+	padding-top: 150px;
+	font-size: 2rem;
+}
+.left p a{
+	text-decoration: none;
+}
+.center{
+	display: flex;
+	padding: 100px 400px 0px 400px;
+	justify-content: space-between;
+}
+.center i{
+	font-size: 1.5rem;
+	align-items: center;
+	
+}
+.center i a{
+	text-decoration: none;
+	color: #c6bcb6;
+}
